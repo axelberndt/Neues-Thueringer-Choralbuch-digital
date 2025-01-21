@@ -4,7 +4,7 @@ Authors: [Axel Berndt](https://github.com/axelberndt) ([Paderborn University](ht
 
 ### About
 
-This is a dataset of MEI encodings of the whole "Neues Thüringer Choralbuch", a book with four-part harmonizations of hymns.
+This is a dataset of MEI encodings of the whole "Neues Thüringer Choralbuch", 6th edition. It is a collection of four-part harmonizations of hymns. The book was compiled by Rudolf and Erhard Mauersberger and later edited by Herbert Peter.
 
 ### License
 
