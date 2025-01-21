@@ -1,10 +1,10 @@
 # Neues Thüringer Choralbuch digital
 
-Authors: [Axel Berndt](https://github.com/axelberndt) ([Paderborn University](https://www.uni-paderborn.de/person/55565), Detmold), Aida Amiryan-Stein
+Authors: [Axel Berndt](https://github.com/axelberndt) ([Paderborn University](https://www.uni-paderborn.de/person/55565), Detmold), Aida Amiryan-Stein ([Paderborn University](https://www.uni-paderborn.de/person/89520))
 
 ### About
 
-This is a dataset of MEI encodings of the whole "Neues Thüringer Choralbuch", 6th edition. It is a collection of four-part harmonizations of hymns. The book was compiled by Rudolf and Erhard Mauersberger and later edited by Herbert Peter.
+This is a dataset of MEI encodings of the whole "Neues Thüringer Choralbuch" (English: "New Thuringian Chorale Book"). It is a collection of four-part harmonizations of hymns from the two hymn books “Deutsches Evangelisches Gesangbuch” and “Evangelisches Kirchengesangbuch”. The book was compiled by Rudolf and Erhard Mauersberger and later edited by Herbert Peter. The main source for the encodings was the 6th and final edition from 1990.
 
 ### License
 
