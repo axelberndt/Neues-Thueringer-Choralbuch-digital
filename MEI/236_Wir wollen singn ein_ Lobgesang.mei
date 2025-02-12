@@ -1,410 +1,416 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title><titlePart type="number">236</titlePart> Wir wollen singn ein' Lobgesang</title>
-            <respStmt>
-               <persName role="composer" n="1" resp="melody" xml:id="cmpsrMld1" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="119369958">Cyriakus Spangenberg</persName>
-               <persName role="composer" n="2" resp="melody" xml:id="cmpsrMld2" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118694405">Bartholomäus Gesius</persName>
-               <persName role="composer" resp="harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
-               <persName role="encoder">Aida Amiryan-Stein</persName>
-            </respStmt>
-         </titleStmt>
-         <pubStmt>
-            <pubPlace>KreativInstitut.OWL<address>
-               <addrLine>
-                  <street>Bielefelder Str. 66a</street>
-                  <postCode>32756</postCode>
-                  <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2817537">Detmold</geogName>
-                  <country>Germany</country>
-               </addrLine>
-               </address>
-            </pubPlace>
-            <date startdate="2024">2024</date>
-         </pubStmt>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>Neues Thüringer Choralbuch digital</p>
-         </projectDesc>
-      </encodingDesc>
-      <workList>
-         <work n="236">
-            <title>Wir wollen singn ein' Lobgesang</title>
-            <composer resp="melody">
-               <persName n="1" sameas="#cmpsrMld1"/>
-               <date>1568</date>
-               <persName n="2" sameas="#cmpsrMld2"/>
-               <date>1603</date>
-            </composer>
-            <composer resp="harmonization">
-               <persName sameas="#cmpsrHrm"/>
-            </composer>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation>
-            <langUsage>
-               <language>German</language>
-            </langUsage>
-            <biblList>
-               <biblStruct>
-                  <monogr>
-                     <title>Neues Thüringer Choralbuch</title>
-                     <editor n="1">
-                        <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
-                     </editor>
-                     <editor n="2">
-                        <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
-                     </editor>
-                     <editor n="3">
-                        <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="131444689">Herbert Peter</persName>
-                     </editor>
-                     <imprint>
-                        <publisher>
-                           <corpName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="2009855-8">Evangelische Verlagsanstalt GmbH</corpName>
-                           <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2950159">Berlin</geogName>
-                        </publisher>
-                     	<bibl>
-                           <edition n="6" xml:id="edition_06">
-                              <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555"/>
-                              <date>1990</date>
-                           </edition>
-                        </bibl>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-            </biblList>
-         </manifestation>
-      </manifestationList>
-   </meiHead>
-   <music>
-      <body>
-         <mdiv>
-            <score>
-               <scoreDef key.pname="d" key.mode="dorian">
-                  <meterSig count="6" unit="4"/>
-                  <pgHead>
-                     <rend halign="center" valign="top" fontsize="large">
-                        <rend>236</rend>
-                        <lb />
-                        <rend>Wir wollen singn ein' Lobgesang</rend>
-                     </rend>
-                     <rend halign="right" valign="bottom" fontsize="small">
-                        <rend>Bei Cyriakus Spangenberg 1568</rend>
-                        <lb/>
-                        <rend>Bartholomäus Gesius 1603</rend>
-                     </rend>
-                  </pgHead>
-                  <staffGrp>
-                     <staffGrp bar.thru="true" symbol="brace">
-                        <staffDef n="1" lines="5">
-                           <clef shape="G" line="2" />
-                        </staffDef>
-                        <staffDef n="2" lines="5">
-                           <clef shape="F" line="4" />
-                        </staffDef>
-                     </staffGrp>
-                  </staffGrp>
-               </scoreDef>
-               <section xml:id="s1">
-                  <measure xml:id="m1m4pxc7" metcon="false">
-                     <staff xml:id="m1s1" n="1">
-                        <layer xml:id="m1s1l1" n="1">
-                           <note xml:id="njscu1o" dur="4" pname="d" oct="4" />
-                        </layer>
-                        <layer xml:id="m1s1l2" n="2">
-                           <note xml:id="ngrco65" dur="4" pname="a" oct="3" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="m1s2" n="2">
-                        <layer xml:id="m1s2l1" n="1">
-                           <note xml:id="n1c278az" dur="4" pname="f" oct="3" />
-                        </layer>
-                        <layer xml:id="m1s2l2" n="2">
-                           <note xml:id="n19h6ee1" dur="4" pname="d" oct="3" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="mzamkjr" n="1">
-                     <staff xml:id="m2s1" n="1">
-                        <layer xml:id="m2s1l1" n="1">
-                           <note xml:id="neuatdl" dur="2" pname="d" oct="4" />
-                           <note xml:id="nfuyhka" dur="4" pname="f" oct="4" />
-                           <note xml:id="nwf8d0m" dur="2" pname="e" oct="4" />
-                           <note xml:id="n14el51a" dur="4" pname="d" oct="4" />
-                        </layer>
-                        <layer xml:id="m2s1l2" n="2">
-                           <note xml:id="n1191p9c" dur="2" pname="b" oct="3" />
-                           <note xml:id="nvykv79" dur="4" pname="c" oct="4" />
-                           <note xml:id="n1cffa4o" dur="2" pname="c" oct="4" />
-                           <note xml:id="nbqd9ak" dur="4" pname="a" oct="3" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="m2s2" n="2">
-                        <layer xml:id="m2s2l1" n="1">
-                           <note xml:id="nm6d926" dur="2" pname="g" oct="3" />
-                           <note xml:id="nhodlxd" dur="4" pname="a" oct="3" />
-                           <note xml:id="n1ahljlr" dur="2" pname="g" oct="3" />
-                           <note xml:id="n1vu7yf9" dur="4" pname="f" oct="3" />
-                        </layer>
-                        <layer xml:id="m2s2l2" n="2">
-                           <note xml:id="nuflqcj" dur="2" pname="g" oct="3" />
-                           <note xml:id="nhzkf4a" dur="4" pname="f" oct="3" />
-                           <note xml:id="n1nnvqee" dur="2" pname="c" oct="3" />
-                           <note xml:id="neravbl" dur="4" pname="d" oct="3" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="m15scrbw" n="2">
-                     <staff xml:id="m3s1" n="1">
-                        <layer xml:id="m3s1l1" n="1">
-                           <note xml:id="nde2tz2" dur="4" pname="e" oct="4" />
-                           <note xml:id="n1l0qpff" dur="4" pname="f" oct="4" />
-                           <note xml:id="nhj4uzs" dur="4" pname="g" oct="4" />
-                           <note xml:id="nwdhovh" dur="2" pname="a" oct="4" />
-                           <rest xml:id="r1qv9hsz" dur="4" loc="4"/>
-                        </layer>
-                        <layer xml:id="m3s1l2" n="2">
-                           <note xml:id="n1ff5c3u" dur="4" pname="c" oct="4" />
-                           <note xml:id="nnrn1pn" dur="4" pname="d" oct="4" />
-                           <note xml:id="n1hov85g" dur="4" pname="e" oct="4" />
-                           <note xml:id="nfee70u" dur="2" pname="f" oct="4" />
-                           <rest xml:id="ruf59aa" dur="4" loc="4"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m3s2" n="2">
-                        <layer xml:id="m3s2l1" n="1">
-                           <note xml:id="npdckbk" dur="2" pname="a" oct="3" />
-                           <note xml:id="ns60xcy" dur="4" pname="c" oct="4" />
-                           <note xml:id="nlzu6bp" dur="2" pname="c" oct="4" />
-                           <rest xml:id="rv5n9ot" dur="4" loc="4"/>
-                        </layer>
-                        <layer xml:id="m3s2l2" n="2">
-                           <note xml:id="ntc4aac" dur="4" pname="a" oct="2" />
-                           <note xml:id="nqbmagm" dur="4" pname="d" oct="3" />
-                           <note xml:id="n1qo0485" dur="4" pname="c" oct="3" />
-                           <note xml:id="n13j6b3m" dur="2" pname="f" oct="3" />
-                           <rest xml:id="rils7rc" dur="4" loc="4"/>
-                        </layer>
-                     </staff>
-                     <slur xml:id="s1sc8i5b" startid="#nde2tz2" endid="#n1l0qpff" />
-                     <slur xml:id="s1caytku" startid="#n1ff5c3u" endid="#nnrn1pn" />
-                     <slur xml:id="s105ucr6" startid="#ntc4aac" endid="#nqbmagm" />
-                  </measure>
-                  <measure xml:id="mn49s6a" n="3">
-                     <staff xml:id="m4s1" n="1">
-                        <layer xml:id="m4s1l1" n="1">
-                           <note xml:id="n1nfi22u" dur="4" pname="a" oct="4" />
-                           <note xml:id="n1cj8y4s" dur="4" pname="a" oct="4" />
-                           <note xml:id="n1hgghmu" dur="4" pname="c" oct="5" />
-                           <note xml:id="nlaqkv0" dur="2" pname="a" oct="4" />
-                           <note xml:id="n18gdban" dur="4" pname="b" oct="4">
-                              <accid xml:id="a7nlszp" accid="f" />
-                           </note>
-                        </layer>
-                        <layer xml:id="m4s1l2" n="2">
-                           <note xml:id="n1qa3j3n" dur="4" pname="e" oct="4" />
-                           <note xml:id="n1qx25a6" dur="4" pname="f" oct="4" />
-                           <note xml:id="nzz4qky" dur="4" pname="g" oct="4" />
-                           <note xml:id="n1tm4mme" dur="2" pname="f" oct="4" />
-                           <note xml:id="nowrn6p" dur="4" pname="f" oct="4" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="m4s2" n="2">
-                        <layer xml:id="m4s2l1" n="1">
-                           <note xml:id="n1yon1hn" dur="4" pname="c" oct="4" />
-                           <note xml:id="n2e4i5c" dur="4" pname="c" oct="4" />
-                           <note xml:id="n18j6g1w" dur="4" pname="e" oct="4" />
-                           <note xml:id="n9h9wva" dur="2" pname="d" oct="4" />
-                           <note xml:id="nj31epy" dur="4" pname="d" oct="4" />
-                        </layer>
-                        <layer xml:id="m4s2l2" n="2">
-                           <note xml:id="n1ajube7" dur="4" pname="a" oct="3" />
-                           <note xml:id="nffjpzv" dur="4" pname="f" oct="3" />
-                           <note xml:id="nctuhdt" dur="4" pname="c" oct="3" />
-                           <note xml:id="n1u8fiya" dur="2" pname="d" oct="3" />
-                           <note xml:id="n188pp2p" dur="4" pname="b" oct="2">
-                              <accid xml:id="a1mdnqfn" accid="f" />
-                           </note>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="m1u1kudp" n="4">
-                     <staff xml:id="m5s1" n="1">
-                        <layer xml:id="m5s1l1" n="1">
-                           <note xml:id="nawj3wn" dur="4" pname="a" oct="4" />
-                           <note xml:id="n1jtt4rt" dur="2" pname="g" oct="4" />
-                           <note xml:id="n1sj4wn9" dur="2" pname="f" oct="4" />
-                           <rest xml:id="r1sqv7od" dur="4" loc="4"/>
-                        </layer>
-                        <layer xml:id="m5s1l2" n="2">
-                           <note xml:id="n1xwirly" dur="4" pname="f" oct="4" />
-                           <note xml:id="n18b22k6" dur="4" pname="f" oct="4" />
-                           <note xml:id="n1onol5c" dur="4" pname="e" oct="4" />
-                           <note xml:id="n1ufcc0t" dur="2" pname="f" oct="4" />
-                           <rest xml:id="r18vx8wa" dur="4" loc="4"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m5s2" n="2">
-                        <layer xml:id="m5s2l1" n="1">
-                           <note xml:id="n46s5b7" dur="4" pname="c" oct="4" />
-                           <note xml:id="n6irblj" dur="2" pname="c" oct="4" />
-                           <note xml:id="n1ytuytp" dur="2" pname="a" oct="3" />
-                           <rest xml:id="rvnxrt9" dur="4" loc="4"/>
-                        </layer>
-                        <layer xml:id="m5s2l2" n="2">
-                           <note xml:id="n10upr0m" dur="4" pname="f" oct="3" />
-                           <note xml:id="n1xxpu48" dur="2" pname="c" oct="3" />
-                           <note xml:id="n1w2fh2w" dur="2" pname="f" oct="3" />
-                           <rest xml:id="r1fvvduu" dur="4" loc="4"/>
-                        </layer>
-                     </staff>
-                     <slur xml:id="s13y62tg" startid="#n18b22k6" endid="#n1onol5c" />
-                  </measure>
-                  <measure xml:id="m12ojtv5" n="5">
-                     <staff xml:id="m6s1" n="1">
-                        <layer xml:id="m6s1l1" n="1">
-                           <note xml:id="n11etjbr" dur="4" pname="f" oct="4" />
-                           <note xml:id="nq5dlld" dur="4" pname="f" oct="4" />
-                           <note xml:id="nbnfyxy" dur="4" pname="a" oct="4" />
-                           <note xml:id="n7dh2a4" dur="2" pname="g" oct="4" />
-                           <note xml:id="n16ho89f" dur="4" pname="e" oct="4" />
-                        </layer>
-                        <layer xml:id="m6s1l2" n="2">
-                           <note xml:id="nbvn9i2" dur="4" pname="c" oct="4" />
-                           <note xml:id="n18mlh5m" dur="4" pname="d" oct="4" />
-                           <note xml:id="n1svk1b" dur="4" pname="e" oct="4" />
-                           <note xml:id="n1x59gto" dur="2" pname="d" oct="4" />
-                           <note xml:id="n1qhy9iv" dur="4" pname="c" oct="4" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="m6s2" n="2">
-                        <layer xml:id="m6s2l1" n="1">
-                           <note xml:id="nb8c37x" dur="4" pname="a" oct="3" />
-                           <note xml:id="ne3kpig" dur="4" pname="a" oct="3" />
-                           <note xml:id="n1fxk0qt" dur="4" pname="c" oct="4" />
-                           <note xml:id="n1miauvt" dur="4" pname="b" oct="3" />
-                           <note xml:id="nqr6r59" dur="4" pname="a" oct="3" />
-                           <note xml:id="nwiu5r9" dur="4" pname="g" oct="3" />
-                        </layer>
-                        <layer xml:id="m6s2l2" n="2">
-                           <note xml:id="n1n9ym7" dur="4" pname="f" oct="3" />
-                           <note xml:id="n1iznarh" dur="4" pname="d" oct="3" />
-                           <note xml:id="n1enq1f2" dur="4" pname="a" oct="2" />
-                           <note xml:id="n118hmki" dur="2" pname="b" oct="2" />
-                           <note xml:id="n140m83r" dur="4" pname="c" oct="3" />
-                        </layer>
-                     </staff>
-                     <slur xml:id="s8kbr9i" startid="#n1miauvt" endid="#nqr6r59" />
-                  </measure>
-                  <measure xml:id="m11l038s" n="6">
-                     <staff xml:id="m7s1" n="1">
-                        <layer xml:id="m7s1l1" n="1">
-                           <note xml:id="naee7ug" dur="2" pname="f" oct="4" />
-                           <note xml:id="ntwnjta" dur="4" pname="g" oct="4" />
-                           <note xml:id="naqjkhw" dur="2" pname="a" oct="4" />
-                           <rest xml:id="rkperw1" dur="4" loc="4"/>
-                        </layer>
-                        <layer xml:id="m7s1l2" n="2">
-                           <note xml:id="n9gcdqw" dur="2" pname="a" oct="3" />
-                           <note xml:id="n44rbmx" dur="4" pname="d" oct="4" />
-                           <note xml:id="n1uri71m" dur="2" pname="c" oct="4">
-                            <app>
-                           	<rdg>
-                              	<accid xml:id="a4v6d8b" enclose="paren" accid="s" />
-   									</rdg>
-										<rdg/>
-									 </app>
-                           </note>
-                           <rest xml:id="rquhph2" dur="4" loc="4"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m7s2" n="2">
-                        <layer xml:id="m7s2l1" n="1">
-                           <note xml:id="n1awrqov" dur="2" pname="f" oct="3" />
-                           <note xml:id="n1haxfjj" dur="4" pname="d" oct="3" />
-                           <note xml:id="n1osdtmx" dur="2" pname="e" oct="3" />
-                           <rest xml:id="r1b25r5k" dur="4" loc="4"/>
-                        </layer>
-                        <layer xml:id="m7s2l2" n="2">
-                           <note xml:id="n1q0kh1i" dur="2" pname="d" oct="3" />
-                           <note xml:id="n120wza5" dur="4" pname="b" oct="2" />
-                           <note xml:id="n3djqhm" dur="2" pname="a" oct="2" />
-                           <rest xml:id="r1lxdtfv" dur="4" loc="4"/>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="m1wludh2" n="7">
-                     <staff xml:id="m8s1" n="1">
-                        <layer xml:id="m8s1l1" n="1">
-                           <note xml:id="n159791o" dur="4" pname="a" oct="4" />
-                           <note xml:id="np92hz5" dur="4" pname="a" oct="4" />
-                           <note xml:id="n1pe6e3s" dur="4" pname="a" oct="4" />
-                           <note xml:id="nz9bfds" dur="2" pname="g" oct="4" />
-                           <note xml:id="nzfpqic" dur="4" pname="e" oct="4" />
-                        </layer>
-                        <layer xml:id="m8s1l2" n="2">
-                           <note xml:id="njv7hvy" dur="4" pname="d" oct="4" />
-                           <note xml:id="nqiu87t" dur="4" pname="e" oct="4" />
-                           <note xml:id="nvdp710" dur="4" pname="f" oct="4" />
-                           <note xml:id="nekjlbm" dur="2" pname="e" oct="4" />
-                           <note xml:id="n11zd0b" dur="4" pname="c" oct="4" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="m8s2" n="2">
-                        <layer xml:id="m8s2l1" n="1">
-                           <note xml:id="n3bja1u" dur="4" pname="f" oct="3" />
-                           <note xml:id="n1by9sio" dur="4" pname="a" oct="3" />
-                           <note xml:id="n1nwtb2b" dur="4" pname="d" oct="4" />
-                           <note xml:id="n1i7b4qi" dur="2" pname="b" oct="3" />
-                           <note xml:id="n11fp8s" dur="4" pname="a" oct="3" />
-                        </layer>
-                        <layer xml:id="m8s2l2" n="2">
-                           <note xml:id="n171gvsz" dur="4" pname="d" oct="3" />
-                           <note xml:id="n1gxv65" dur="4" pname="c" oct="3" />
-                           <note xml:id="n1lt1zee" dur="4" pname="d" oct="3" />
-                           <note xml:id="ng1xwjt" dur="2" pname="e" oct="3" />
-                           <note xml:id="nyndqwz" dur="4" pname="a" oct="3" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="m15yfrb6" right="end" metcon="false" n="8">
-                     <staff xml:id="m9s1" n="1">
-                        <layer xml:id="m9s1l1" n="1">
-                           <note xml:id="n1mty9nv" dur="4" pname="f" oct="4" />
-                           <note xml:id="nnxt2w3" dur="2" pname="e" oct="4" />
-                           <note xml:id="n285sn9" dur="2" pname="d" oct="4" />
-                        </layer>
-                        <layer xml:id="m9s1l2" n="2">
-                           <note xml:id="nrkrxt5" dur="4" pname="d" oct="4" />
-                           <note xml:id="n15h7b9t" dur="4" pname="d" oct="4" />
-                           <note xml:id="ntxzt9h" dur="4" pname="c" oct="4">
-                              <accid xml:id="a1bz0jxg" accid="s" />
-                           </note>
-                           <note xml:id="n1s3haoz" dur="2" pname="a" oct="3" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="m9s2" n="2">
-                        <layer xml:id="m9s2l1" n="1">
-                           <note xml:id="nxygqg4" dur="4" pname="a" oct="3" />
-                           <note xml:id="n1w7lvrf" dur="2" pname="a" oct="3" />
-                           <note xml:id="n12vu53i" dur="2" pname="f" oct="3" />
-                        </layer>
-                        <layer xml:id="m9s2l2" n="2">
-                           <note xml:id="n11i1vv3" dur="4" pname="d" oct="3" />
-                           <note xml:id="ny46vba" dur="2" pname="a" oct="2" />
-                           <note xml:id="nen5qvl" dur="2" pname="d" oct="3" />
-                        </layer>
-                     </staff>
-                     <slur xml:id="s1e6peev" startid="#n15h7b9t" endid="#ntxzt9h" />
-                  </measure>
-               </section>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+<mei meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <titlePart type="number">236</titlePart> Wir wollen singn ein' Lobgesang
+                </title>
+                <respStmt>
+                    <persName role="composer" n="1" resp="melody" xml:id="cmpsrMld1" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="119369958">Cyriakus Spangenberg</persName>
+                    <persName role="composer" n="2" resp="melody" xml:id="cmpsrMld2" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118694405">Bartholomäus Gesius</persName>
+                    <persName role="composer" resp="harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
+                    <persName role="encoder">Aida Amiryan-Stein</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <pubPlace>KreativInstitut.OWL
+                    <address>
+                        <addrLine>
+                            <street>Bielefelder Str. 66a</street>
+                            <postCode>32756</postCode>
+                            <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2817537">Detmold</geogName>
+                            <country>Germany</country>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+                <date startdate="2024">2024</date>
+                <availability>
+                    <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
+                </availability>
+            </pubStmt>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Neues Thüringer Choralbuch digital</p>
+            </projectDesc>
+        </encodingDesc>
+        <workList>
+            <work n="236">
+                <title>Wir wollen singn ein' Lobgesang</title>
+                <composer resp="melody">
+                    <persName n="1" sameas="#cmpsrMld1"/>
+                    <date>1568</date>
+                    <persName n="2" sameas="#cmpsrMld2"/>
+                    <date>1603</date>
+                </composer>
+                <composer resp="harmonization">
+                    <persName sameas="#cmpsrHrm"/>
+                </composer>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation>
+                <langUsage>
+                    <language>German</language>
+                </langUsage>
+                <biblList>
+                    <biblStruct>
+                        <monogr>
+                            <title>Neues Thüringer Choralbuch</title>
+                            <editor n="1">
+                                <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
+                            </editor>
+                            <editor n="2">
+                                <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
+                            </editor>
+                            <editor n="3">
+                                <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="131444689">Herbert Peter</persName>
+                            </editor>
+                            <imprint>
+                                <publisher>
+                                    <corpName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="2009855-8">Evangelische Verlagsanstalt GmbH</corpName>
+                                    <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2950159">Berlin</geogName>
+                                </publisher>
+                                <bibl>
+                                    <edition n="6" xml:id="edition_06">
+                                        <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555"/>
+                                        <date>1990</date>
+                                    </edition>
+                                </bibl>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </biblList>
+            </manifestation>
+        </manifestationList>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef key.pname="d" key.mode="dorian">
+                        <meterSig count="6" unit="4"/>
+                        <pgHead>
+                            <rend halign="center" valign="top" fontsize="large">
+                                <rend>236</rend>
+                                <lb/>
+                                <rend>Wir wollen singn ein' Lobgesang</rend>
+                            </rend>
+                            <rend halign="right" valign="bottom" fontsize="small">
+                                <rend>Bei Cyriakus Spangenberg 1568</rend>
+                                <lb/>
+                                <rend>Bartholomäus Gesius 1603</rend>
+                            </rend>
+                        </pgHead>
+                        <staffGrp>
+                            <staffGrp bar.thru="true" symbol="brace">
+                                <staffDef n="1" lines="5">
+                                    <clef shape="G" line="2"/>
+                                </staffDef>
+                                <staffDef n="2" lines="5">
+                                    <clef shape="F" line="4"/>
+                                </staffDef>
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="s1">
+                        <measure xml:id="m1m4pxc7" metcon="false">
+                            <staff xml:id="m1s1" n="1">
+                                <layer xml:id="m1s1l1" n="1">
+                                    <note xml:id="njscu1o" dur="4" pname="d" oct="4"/>
+                                </layer>
+                                <layer xml:id="m1s1l2" n="2">
+                                    <note xml:id="ngrco65" dur="4" pname="a" oct="3"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m1s2" n="2">
+                                <layer xml:id="m1s2l1" n="1">
+                                    <note xml:id="n1c278az" dur="4" pname="f" oct="3"/>
+                                </layer>
+                                <layer xml:id="m1s2l2" n="2">
+                                    <note xml:id="n19h6ee1" dur="4" pname="d" oct="3"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="mzamkjr" n="1">
+                            <staff xml:id="m2s1" n="1">
+                                <layer xml:id="m2s1l1" n="1">
+                                    <note xml:id="neuatdl" dur="2" pname="d" oct="4"/>
+                                    <note xml:id="nfuyhka" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nwf8d0m" dur="2" pname="e" oct="4"/>
+                                    <note xml:id="n14el51a" dur="4" pname="d" oct="4"/>
+                                </layer>
+                                <layer xml:id="m2s1l2" n="2">
+                                    <note xml:id="n1191p9c" dur="2" pname="b" oct="3"/>
+                                    <note xml:id="nvykv79" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="n1cffa4o" dur="2" pname="c" oct="4"/>
+                                    <note xml:id="nbqd9ak" dur="4" pname="a" oct="3"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m2s2" n="2">
+                                <layer xml:id="m2s2l1" n="1">
+                                    <note xml:id="nm6d926" dur="2" pname="g" oct="3"/>
+                                    <note xml:id="nhodlxd" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="n1ahljlr" dur="2" pname="g" oct="3"/>
+                                    <note xml:id="n1vu7yf9" dur="4" pname="f" oct="3"/>
+                                </layer>
+                                <layer xml:id="m2s2l2" n="2">
+                                    <note xml:id="nuflqcj" dur="2" pname="g" oct="3"/>
+                                    <note xml:id="nhzkf4a" dur="4" pname="f" oct="3"/>
+                                    <note xml:id="n1nnvqee" dur="2" pname="c" oct="3"/>
+                                    <note xml:id="neravbl" dur="4" pname="d" oct="3"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="m15scrbw" n="2">
+                            <staff xml:id="m3s1" n="1">
+                                <layer xml:id="m3s1l1" n="1">
+                                    <note xml:id="nde2tz2" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="n1l0qpff" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nhj4uzs" dur="4" pname="g" oct="4"/>
+                                    <note xml:id="nwdhovh" dur="2" pname="a" oct="4"/>
+                                    <rest xml:id="r1qv9hsz" dur="4" loc="4"/>
+                                </layer>
+                                <layer xml:id="m3s1l2" n="2">
+                                    <note xml:id="n1ff5c3u" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="nnrn1pn" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="n1hov85g" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="nfee70u" dur="2" pname="f" oct="4"/>
+                                    <rest xml:id="ruf59aa" dur="4" loc="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m3s2" n="2">
+                                <layer xml:id="m3s2l1" n="1">
+                                    <note xml:id="npdckbk" dur="2" pname="a" oct="3"/>
+                                    <note xml:id="ns60xcy" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="nlzu6bp" dur="2" pname="c" oct="4"/>
+                                    <rest xml:id="rv5n9ot" dur="4" loc="4"/>
+                                </layer>
+                                <layer xml:id="m3s2l2" n="2">
+                                    <note xml:id="ntc4aac" dur="4" pname="a" oct="2"/>
+                                    <note xml:id="nqbmagm" dur="4" pname="d" oct="3"/>
+                                    <note xml:id="n1qo0485" dur="4" pname="c" oct="3"/>
+                                    <note xml:id="n13j6b3m" dur="2" pname="f" oct="3"/>
+                                    <rest xml:id="rils7rc" dur="4" loc="4"/>
+                                </layer>
+                            </staff>
+                            <slur xml:id="s1sc8i5b" startid="#nde2tz2" endid="#n1l0qpff"/>
+                            <slur xml:id="s1caytku" startid="#n1ff5c3u" endid="#nnrn1pn"/>
+                            <slur xml:id="s105ucr6" startid="#ntc4aac" endid="#nqbmagm"/>
+                        </measure>
+                        <measure xml:id="mn49s6a" n="3">
+                            <staff xml:id="m4s1" n="1">
+                                <layer xml:id="m4s1l1" n="1">
+                                    <note xml:id="n1nfi22u" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="n1cj8y4s" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="n1hgghmu" dur="4" pname="c" oct="5"/>
+                                    <note xml:id="nlaqkv0" dur="2" pname="a" oct="4"/>
+                                    <note xml:id="n18gdban" dur="4" pname="b" oct="4">
+                                        <accid xml:id="a7nlszp" accid="f"/>
+                                    </note>
+                                </layer>
+                                <layer xml:id="m4s1l2" n="2">
+                                    <note xml:id="n1qa3j3n" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="n1qx25a6" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nzz4qky" dur="4" pname="g" oct="4"/>
+                                    <note xml:id="n1tm4mme" dur="2" pname="f" oct="4"/>
+                                    <note xml:id="nowrn6p" dur="4" pname="f" oct="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m4s2" n="2">
+                                <layer xml:id="m4s2l1" n="1">
+                                    <note xml:id="n1yon1hn" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="n2e4i5c" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="n18j6g1w" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="n9h9wva" dur="2" pname="d" oct="4"/>
+                                    <note xml:id="nj31epy" dur="4" pname="d" oct="4"/>
+                                </layer>
+                                <layer xml:id="m4s2l2" n="2">
+                                    <note xml:id="n1ajube7" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="nffjpzv" dur="4" pname="f" oct="3"/>
+                                    <note xml:id="nctuhdt" dur="4" pname="c" oct="3"/>
+                                    <note xml:id="n1u8fiya" dur="2" pname="d" oct="3"/>
+                                    <note xml:id="n188pp2p" dur="4" pname="b" oct="2">
+                                        <accid xml:id="a1mdnqfn" accid="f"/>
+                                    </note>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="m1u1kudp" n="4">
+                            <staff xml:id="m5s1" n="1">
+                                <layer xml:id="m5s1l1" n="1">
+                                    <note xml:id="nawj3wn" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="n1jtt4rt" dur="2" pname="g" oct="4"/>
+                                    <note xml:id="n1sj4wn9" dur="2" pname="f" oct="4"/>
+                                    <rest xml:id="r1sqv7od" dur="4" loc="4"/>
+                                </layer>
+                                <layer xml:id="m5s1l2" n="2">
+                                    <note xml:id="n1xwirly" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="n18b22k6" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="n1onol5c" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="n1ufcc0t" dur="2" pname="f" oct="4"/>
+                                    <rest xml:id="r18vx8wa" dur="4" loc="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m5s2" n="2">
+                                <layer xml:id="m5s2l1" n="1">
+                                    <note xml:id="n46s5b7" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="n6irblj" dur="2" pname="c" oct="4"/>
+                                    <note xml:id="n1ytuytp" dur="2" pname="a" oct="3"/>
+                                    <rest xml:id="rvnxrt9" dur="4" loc="4"/>
+                                </layer>
+                                <layer xml:id="m5s2l2" n="2">
+                                    <note xml:id="n10upr0m" dur="4" pname="f" oct="3"/>
+                                    <note xml:id="n1xxpu48" dur="2" pname="c" oct="3"/>
+                                    <note xml:id="n1w2fh2w" dur="2" pname="f" oct="3"/>
+                                    <rest xml:id="r1fvvduu" dur="4" loc="4"/>
+                                </layer>
+                            </staff>
+                            <slur xml:id="s13y62tg" startid="#n18b22k6" endid="#n1onol5c"/>
+                        </measure>
+                        <measure xml:id="m12ojtv5" n="5">
+                            <staff xml:id="m6s1" n="1">
+                                <layer xml:id="m6s1l1" n="1">
+                                    <note xml:id="n11etjbr" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nq5dlld" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nbnfyxy" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="n7dh2a4" dur="2" pname="g" oct="4"/>
+                                    <note xml:id="n16ho89f" dur="4" pname="e" oct="4"/>
+                                </layer>
+                                <layer xml:id="m6s1l2" n="2">
+                                    <note xml:id="nbvn9i2" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="n18mlh5m" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="n1svk1b" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="n1x59gto" dur="2" pname="d" oct="4"/>
+                                    <note xml:id="n1qhy9iv" dur="4" pname="c" oct="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m6s2" n="2">
+                                <layer xml:id="m6s2l1" n="1">
+                                    <note xml:id="nb8c37x" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="ne3kpig" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="n1fxk0qt" dur="4" pname="c" oct="4"/>
+                                    <note xml:id="n1miauvt" dur="4" pname="b" oct="3"/>
+                                    <note xml:id="nqr6r59" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="nwiu5r9" dur="4" pname="g" oct="3"/>
+                                </layer>
+                                <layer xml:id="m6s2l2" n="2">
+                                    <note xml:id="n1n9ym7" dur="4" pname="f" oct="3"/>
+                                    <note xml:id="n1iznarh" dur="4" pname="d" oct="3"/>
+                                    <note xml:id="n1enq1f2" dur="4" pname="a" oct="2"/>
+                                    <note xml:id="n118hmki" dur="2" pname="b" oct="2"/>
+                                    <note xml:id="n140m83r" dur="4" pname="c" oct="3"/>
+                                </layer>
+                            </staff>
+                            <slur xml:id="s8kbr9i" startid="#n1miauvt" endid="#nqr6r59"/>
+                        </measure>
+                        <measure xml:id="m11l038s" n="6">
+                            <staff xml:id="m7s1" n="1">
+                                <layer xml:id="m7s1l1" n="1">
+                                    <note xml:id="naee7ug" dur="2" pname="f" oct="4"/>
+                                    <note xml:id="ntwnjta" dur="4" pname="g" oct="4"/>
+                                    <note xml:id="naqjkhw" dur="2" pname="a" oct="4"/>
+                                    <rest xml:id="rkperw1" dur="4" loc="4"/>
+                                </layer>
+                                <layer xml:id="m7s1l2" n="2">
+                                    <note xml:id="n9gcdqw" dur="2" pname="a" oct="3"/>
+                                    <note xml:id="n44rbmx" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="n1uri71m" dur="2" pname="c" oct="4">
+                                        <app>
+                                            <rdg>
+                                                <accid xml:id="a4v6d8b" enclose="paren" accid="s"/>
+                                            </rdg>
+                                            <rdg/>
+                                        </app>
+                                    </note>
+                                    <rest xml:id="rquhph2" dur="4" loc="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m7s2" n="2">
+                                <layer xml:id="m7s2l1" n="1">
+                                    <note xml:id="n1awrqov" dur="2" pname="f" oct="3"/>
+                                    <note xml:id="n1haxfjj" dur="4" pname="d" oct="3"/>
+                                    <note xml:id="n1osdtmx" dur="2" pname="e" oct="3"/>
+                                    <rest xml:id="r1b25r5k" dur="4" loc="4"/>
+                                </layer>
+                                <layer xml:id="m7s2l2" n="2">
+                                    <note xml:id="n1q0kh1i" dur="2" pname="d" oct="3"/>
+                                    <note xml:id="n120wza5" dur="4" pname="b" oct="2"/>
+                                    <note xml:id="n3djqhm" dur="2" pname="a" oct="2"/>
+                                    <rest xml:id="r1lxdtfv" dur="4" loc="4"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="m1wludh2" n="7">
+                            <staff xml:id="m8s1" n="1">
+                                <layer xml:id="m8s1l1" n="1">
+                                    <note xml:id="n159791o" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="np92hz5" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="n1pe6e3s" dur="4" pname="a" oct="4"/>
+                                    <note xml:id="nz9bfds" dur="2" pname="g" oct="4"/>
+                                    <note xml:id="nzfpqic" dur="4" pname="e" oct="4"/>
+                                </layer>
+                                <layer xml:id="m8s1l2" n="2">
+                                    <note xml:id="njv7hvy" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="nqiu87t" dur="4" pname="e" oct="4"/>
+                                    <note xml:id="nvdp710" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nekjlbm" dur="2" pname="e" oct="4"/>
+                                    <note xml:id="n11zd0b" dur="4" pname="c" oct="4"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m8s2" n="2">
+                                <layer xml:id="m8s2l1" n="1">
+                                    <note xml:id="n3bja1u" dur="4" pname="f" oct="3"/>
+                                    <note xml:id="n1by9sio" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="n1nwtb2b" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="n1i7b4qi" dur="2" pname="b" oct="3"/>
+                                    <note xml:id="n11fp8s" dur="4" pname="a" oct="3"/>
+                                </layer>
+                                <layer xml:id="m8s2l2" n="2">
+                                    <note xml:id="n171gvsz" dur="4" pname="d" oct="3"/>
+                                    <note xml:id="n1gxv65" dur="4" pname="c" oct="3"/>
+                                    <note xml:id="n1lt1zee" dur="4" pname="d" oct="3"/>
+                                    <note xml:id="ng1xwjt" dur="2" pname="e" oct="3"/>
+                                    <note xml:id="nyndqwz" dur="4" pname="a" oct="3"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="m15yfrb6" right="end" metcon="false" n="8">
+                            <staff xml:id="m9s1" n="1">
+                                <layer xml:id="m9s1l1" n="1">
+                                    <note xml:id="n1mty9nv" dur="4" pname="f" oct="4"/>
+                                    <note xml:id="nnxt2w3" dur="2" pname="e" oct="4"/>
+                                    <note xml:id="n285sn9" dur="2" pname="d" oct="4"/>
+                                </layer>
+                                <layer xml:id="m9s1l2" n="2">
+                                    <note xml:id="nrkrxt5" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="n15h7b9t" dur="4" pname="d" oct="4"/>
+                                    <note xml:id="ntxzt9h" dur="4" pname="c" oct="4">
+                                        <accid xml:id="a1bz0jxg" accid="s"/>
+                                    </note>
+                                    <note xml:id="n1s3haoz" dur="2" pname="a" oct="3"/>
+                                </layer>
+                            </staff>
+                            <staff xml:id="m9s2" n="2">
+                                <layer xml:id="m9s2l1" n="1">
+                                    <note xml:id="nxygqg4" dur="4" pname="a" oct="3"/>
+                                    <note xml:id="n1w7lvrf" dur="2" pname="a" oct="3"/>
+                                    <note xml:id="n12vu53i" dur="2" pname="f" oct="3"/>
+                                </layer>
+                                <layer xml:id="m9s2l2" n="2">
+                                    <note xml:id="n11i1vv3" dur="4" pname="d" oct="3"/>
+                                    <note xml:id="ny46vba" dur="2" pname="a" oct="2"/>
+                                    <note xml:id="nen5qvl" dur="2" pname="d" oct="3"/>
+                                </layer>
+                            </staff>
+                            <slur xml:id="s1e6peev" startid="#n15h7b9t" endid="#ntxzt9h"/>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>
