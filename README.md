@@ -1,15 +1,6 @@
 # Neues Thüringer Choralbuch digital
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 Authors: [Axel Berndt](https://github.com/axelberndt) ([Paderborn University](https://www.uni-paderborn.de/person/55565), Detmold), Aida Amiryan-Stein ([Paderborn University](https://www.uni-paderborn.de/person/89520))
 
@@ -19,4 +10,10 @@ This is a dataset of MEI encodings of the whole "Neues Thüringer Choralbuch" (E
 
 ### License
 
-This dataset is published under the license [Freier Zugang - Rechte vorbehalten 1.0 (SLUB FZ-RV 1.0)](https://nutzungshinweis.slub-dresden.de/fz-rv/1-0) by the [Saxon State and University Library Dresden](https://www.slub-dresden.de/).
+[![CC BY 4.0][cc-by-image]][cc-by]
+This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by] with kind permission of the rights holder Susanne Vormbrock-Martini (from Feb. 26 2025).
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
