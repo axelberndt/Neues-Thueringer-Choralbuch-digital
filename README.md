@@ -11,7 +11,7 @@ We present a critical music edition of the whole "Neues Thüringer Choralbuch" (
 ### License
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by] with kind permission of the Mauersberger heiress and rights holder Susanne Vormbrock-Martini (Feb. 26, 2025).
+This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by] with kind permission of the Mauersberger heiress and rights holder Susanne Vormbrock-Martini (Jan. 26, 2025).
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
