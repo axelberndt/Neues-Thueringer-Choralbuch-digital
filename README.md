@@ -11,6 +11,7 @@ This is a dataset of MEI encodings of the whole "Neues Thüringer Choralbuch" (E
 ### License
 
 [![CC BY 4.0][cc-by-image]][cc-by]
+
 This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by] with kind permission of the rights holder Susanne Vormbrock-Martini (from Feb. 26 2025).
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
