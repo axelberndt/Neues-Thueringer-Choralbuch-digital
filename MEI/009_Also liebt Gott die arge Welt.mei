@@ -9,8 +9,8 @@
                     <titlePart type="number">9</titlePart> Also liebt der Gott die arge Welt
                 </title>
                 <respStmt>
-                    <persName role="composer" resp="melody" xml:id="cmpsrMld" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611917">Gerhard Schwarz</persName>
-                    <persName role="composer" resp="harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
+                    <persName role="composer_melody" xml:id="cmpsrMld" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118611917">Gerhard Schwarz</persName>
+                    <persName role="composer_harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
                     <persName role="encoder">Aida Amiryan-Stein</persName>
                 </respStmt>
             </titleStmt>
@@ -25,7 +25,7 @@
                         </addrLine>
                     </address>
                 </pubPlace>
-                <date startdate="2024">2024</date>
+                <date>2024-2025</date>
                 <availability>
                     <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
                 </availability>
@@ -39,15 +39,12 @@
         <workList>
             <work n="9">
                 <title>Also liebt der Gott die arge Welt</title>
-                <composer resp="melody">
-                    <persName sameas="#cmpsrMld"/>
+                <composer sameas="#cmpsrMld">
                     <date>1938</date>
                 </composer>
-                <composer resp="harmonization">
-                    <persName sameas="#cmpsrHrm"/>
-                </composer>
+                <composer sameas="#cmpsrHrm"/>
                 <contributor>
-                    <corpName>Bärenreiter-Verlag</corpName>
+                    <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="33021649X">Bärenreiter Verlag</corpName>
                     <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2892518">Kassel</geogName>
                     <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2661604">Basel</geogName>
                 </contributor>
@@ -62,13 +59,12 @@
                     <biblStruct>
                         <monogr>
                             <title>Neues Thüringer Choralbuch</title>
-                            <editor n="1">
+                            <funder>
+                                <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="2031791-8">Evangelisch-Lutherische Kirche in Thüringen. Landeskirchenrat</corpName>
+                            </funder>
+                            <editor>
                                 <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
-                            </editor>
-                            <editor n="2">
                                 <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
-                            </editor>
-                            <editor n="3">
                                 <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="131444689">Herbert Peter</persName>
                             </editor>
                             <imprint>
@@ -77,8 +73,8 @@
                                     <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2950159">Berlin</geogName>
                                 </publisher>
                                 <bibl>
-                                    <edition n="6" xml:id="edition_06">
-                                        <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555"/>
+                                    <edition xml:id="edition_06">
+                                        <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555">6. Auflage</identifier>
                                         <date>1990</date>
                                     </edition>
                                 </bibl>

@@ -11,7 +11,7 @@
                 <respStmt>
                     <persName role="composer" n="1" resp="melody" xml:id="cmpsrMld1" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="119369958">Cyriakus Spangenberg</persName>
                     <persName role="composer" n="2" resp="melody" xml:id="cmpsrMld2" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118694405">Bartholomäus Gesius</persName>
-                    <persName role="composer" resp="harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
+                    <persName role="composer_harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
                     <persName role="encoder">Aida Amiryan-Stein</persName>
                 </respStmt>
             </titleStmt>
@@ -26,7 +26,7 @@
                         </addrLine>
                     </address>
                 </pubPlace>
-                <date startdate="2024">2024</date>
+                <date>2024-2025</date>
                 <availability>
                     <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
                 </availability>
@@ -40,14 +40,14 @@
         <workList>
             <work n="236">
                 <title>Wir wollen singn ein' Lobgesang</title>
-                <composer resp="melody">
+                <composer sameas="#cmpsrMld">
                     <persName n="1" sameas="#cmpsrMld1"/>
                     <date>1568</date>
                     <persName n="2" sameas="#cmpsrMld2"/>
                     <date>1603</date>
                 </composer>
-                <composer resp="harmonization">
-                    <persName sameas="#cmpsrHrm"/>
+                <composer sameas="#cmpsrHrm">
+                    
                 </composer>
             </work>
         </workList>
