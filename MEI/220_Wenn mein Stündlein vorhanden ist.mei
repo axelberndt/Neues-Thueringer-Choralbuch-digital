@@ -15,7 +15,8 @@
                 </respStmt>
             </titleStmt>
             <pubStmt>
-                <pubPlace>KreativInstitut.OWL
+                <pubPlace>
+                    <name>KreativInstitut.OWL</name>
                     <address>
                         <addrLine>
                             <street>Bielefelder Str. 66a</street>
@@ -40,13 +41,10 @@
             <work n="220">
                 <title>Wenn mein Stündlein vorhanden ist</title>
                 <composer sameas="#cmpsrMld">
-                    
                     <geogName auth="geognames" auth.uri="https://www.geonames.org/" codedval="2879139">Frankfurt a. M.</geogName>
                     <date>1569</date>
                 </composer>
-                <composer sameas="#cmpsrHrm">
-                    
-                </composer>
+                <composer sameas="#cmpsrHrm"/>
             </work>
         </workList>
         <manifestationList>
@@ -58,13 +56,12 @@
                     <biblStruct>
                         <monogr>
                             <title>Neues Thüringer Choralbuch</title>
-                            <editor n="1">
+                            <funder>
+                                <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="2031791-8">Evangelisch-Lutherische Kirche in Thüringen. Landeskirchenrat</corpName>
+                            </funder>
+                            <editor>
                                 <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
-                            </editor>
-                            <editor n="2">
                                 <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
-                            </editor>
-                            <editor n="3">
                                 <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="131444689">Herbert Peter</persName>
                             </editor>
                             <imprint>
@@ -73,8 +70,8 @@
                                     <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2950159">Berlin</geogName>
                                 </publisher>
                                 <bibl>
-                                    <edition n="6" xml:id="edition_06">
-                                        <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555"/>
+                                    <edition xml:id="edition_06">
+                                        <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555">6. Auflage</identifier>
                                         <date>1990</date>
                                     </edition>
                                 </bibl>
