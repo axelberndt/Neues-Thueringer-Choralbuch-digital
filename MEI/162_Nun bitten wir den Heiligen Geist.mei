@@ -251,7 +251,7 @@
                                         <rdg>
                                             <note xml:id="n1q0jv92" dur="4" pname="f" oct="4"/>
                                         </rdg>
-                                        <rdg cause="Strophe_4">
+                                        <rdg xml:id="strf41" cause="Strophe_4">
                                             <rest dur="4"/>
                                         </rdg>
                                     </app>
@@ -271,7 +271,7 @@
                                         <rdg>
                                             <note xml:id="nc0l4v6" dur="4" pname="a" oct="3"/>
                                         </rdg>
-                                        <rdg cause="Strophe_4">
+                                        <rdg xml:id="strf42" cause="Strophe_4">
                                             <rest dur="4"/>
                                         </rdg>
                                     </app>
@@ -296,7 +296,7 @@
                                         <rdg>
                                             <note xml:id="n1ha0y4l" dur="4" pname="f" oct="3"/>
                                         </rdg>
-                                        <rdg cause="Strophe_4">
+                                        <rdg xml:id="strf43" cause="Strophe_4">
                                             <rest dur="4"/>
                                         </rdg>
                                     </app>
@@ -317,7 +317,7 @@
                                         <rdg>
                                             <note xml:id="naxlo7a" dur="4" pname="d" oct="3"/>
                                         </rdg>
-                                        <rdg xml:id="suu" cause="Strophe_4">
+                                        <rdg xml:id="strf44" cause="Strophe_4">
                                             <rest dur="4"/>
                                         </rdg>
                                     </app>
@@ -329,8 +329,11 @@
                                     <note xml:id="n1bwug96" dur="2" pname="d" oct="3"/>
                                 </layer>
                             </staff>
-                            <dir xml:id="d1p7n2ws" startid="#n1q0jv92" place="above">𝄽</dir>
-                            <dir xml:id="d1p7n2fs" corresp="#suu" startid="#naxlo7a" place="below">𝄽 Pause Strophe 4</dir>
+                            <del corresp="#strf41 #strf42 #strf43 #strf44">
+                                <annot>Pause Strophe 4</annot>
+                                <dir xml:id="d1p7n2ws" corresp="#strf41 #strf42" startid="#n1q0jv92" place="above">𝄽</dir>
+                                <dir xml:id="d1p7n2fs" corresp="#strf42 #strf44" startid="#naxlo7a" place="below">𝄽 Pause Strophe 4</dir>
+                            </del>
                             <slur xml:id="svdhmaq" startid="#n1bpk3dj" endid="#na014gd"/>
                             <slur xml:id="s1fje8ye" startid="#nb7yz6a" endid="#na937h5"/>
                         </measure>
