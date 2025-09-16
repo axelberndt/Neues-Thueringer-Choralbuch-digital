@@ -6,9 +6,10 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <titlePart type="number">22</titlePart> Christe, du Lamm Gottes
+                    <titlePart type="number">22</titlePart> 
+                    <titlePart type="main" xml:id="sngttl">Christe, du Lamm Gottes</titlePart>
+                    <titlePart type="alternative" xml:lang="lat" xml:id="sngttlAlt">Agnus Dei</titlePart>
                 </title>
-                <title type="alternative" xml:lang="lat">Agnus Dei</title>
                 <respStmt>
                     <persName role="composer_melody" xml:id="cmpsrMld" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118575449">Martin Luther</persName>
                     <persName role="composer_harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
@@ -27,6 +28,10 @@
                         </addrLine>
                     </address>
                 </pubPlace>
+                <respStmt>
+                    <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="135520258">Axel Berndt</persName>
+                    <persName role="editor">Aida Amiryan-Stein</persName>
+                </respStmt>
                 <date>2024-2025</date>
                 <availability>
                     <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
@@ -40,8 +45,8 @@
         </encodingDesc>
         <workList>
             <work n="22">
-                <title>Christe, du Lamm Gottes</title>
-                <title type="alternative" xml:lang="lat">Agnus Dei</title>
+                <title sameas="#sngttl"/>
+                <title sameas="#sngttlAlt"/>
                 <composer sameas="#cmpsrMld">
                     <date>1528</date>
                 </composer>

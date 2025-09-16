@@ -6,9 +6,10 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <titlePart type="number">36</titlePart> Der du bist drei in Einigkeit
+                    <titlePart type="number">36</titlePart> 
+                    <titlePart type="main" xml:id="sngttl">Der du bist drei in Einigkeit</titlePart>
+                    <titlePart type="alternative" xml:lang="lat" xml:id="sngttlAlt">O lux beata trinitas</titlePart>
                 </title>
-                <title type="alternative" xml:lang="lat">O lux beata trinitas</title>
                 <respStmt>
                     <persName role="composer_melody" xml:id="cmpsrMld" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="117221406">Lukas Lossius</persName>
                     <persName role="composer_harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
@@ -27,6 +28,10 @@
                         </addrLine>
                     </address>
                 </pubPlace>
+                <respStmt>
+                    <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="135520258">Axel Berndt</persName>
+                    <persName role="editor">Aida Amiryan-Stein</persName>
+                </respStmt>
                 <date>2024-2025</date>
                 <availability>
                     <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
@@ -40,10 +45,10 @@
         </encodingDesc>
         <workList>
             <work n="36">
-                <title>Der du bist drei in Einigkeit</title>
-                <title type="alternative" xml:lang="lat">O lux beata trinitas</title>
+                <title sameas="#sngttl"/>
+                <title sameas="#sngttlAlt"/>
                 <composer sameas="#cmpsrMld">
-                    <periodName>Altkirchlich</periodName>
+                    <name type="style">Altkirchlich</name>
                     <date>1553</date>
                 </composer>
                 <composer sameas="#cmpsrHrm"/>
@@ -182,7 +187,7 @@
                             <slur xml:id="su4lre7" startid="#n13wo0ng" endid="#n3tnat1"/>
                             <slur xml:id="sx8dnzs" startid="#n1oorp6e" endid="#ntxkg15"/>
                         </measure>
-                        <measure xml:id="m912k1s" metcon="false" bar.method="mensur" n="2">
+                        <measure xml:id="m912k1s" metcon="false" bar.method="mensur" n="2"><!-- ??? -->
                             <staff xml:id="m2s1" n="1">
                                 <layer xml:id="m2s1l1" n="1">
                                     <note xml:id="njhgstq" dur="4" pname="a" oct="4"/>

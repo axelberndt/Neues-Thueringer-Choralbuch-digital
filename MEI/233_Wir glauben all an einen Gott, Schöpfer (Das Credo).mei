@@ -6,9 +6,10 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <titlePart type="number">233</titlePart> Wir glauben all an einen Gott, Schöpfer
+                    <titlePart type="number">233</titlePart> 
+                    <titlePart type="main" xml:id="sngttl">Wir glauben all an einen Gott, Schöpfer</titlePart>
+                    <titlePart type="alternative" xml:lang="lat" xml:id="sngttlAlt">Credo</titlePart>
                 </title>
-                <title type="alternative" xml:lang="lat">Credo</title>
                 <respStmt>
                     <persName role="composer_melody" xml:id="cmpsrMld">unknown</persName>
                     <persName role="composer_harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
@@ -27,6 +28,10 @@
                         </addrLine>
                     </address>
                 </pubPlace>
+                <respStmt>
+                    <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="135520258">Axel Berndt</persName>
+                    <persName role="editor">Aida Amiryan-Stein</persName>
+                </respStmt>
                 <date>2024-2025</date>
                 <availability>
                     <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
@@ -40,10 +45,10 @@
         </encodingDesc>
         <workList>
             <work n="233">
-                <title>Wir glauben all an einen Gott, Schöpfer</title>
-                <title type="alternative" xml:lang="lat">Credo</title>
+                <title sameas="#sngttl"/>
+                <title sameas="#sngttlAlt"/>
                 <composer sameas="#cmpsrMld">
-                    <periodName>15. Jahrhundert</periodName>
+                    <name type="time">15. Jahrhundert</name>
                     <geogName auth="geognames" auth.uri="https://www.geonames.org/" codedval="2807349">Wittenberg</geogName>
                     <date>1524</date>
                 </composer>
@@ -673,7 +678,7 @@
                             <slur xml:id="ss59o14" startid="#n25se90" endid="#n29zfxb"/>
                             <slur xml:id="ss59o15" startid="#npdnbp9" endid="#n41b5rw"/>
                         </measure>
-                        <measure xml:id="mf6kf7i" right="dbl" bar.method="staff" metcon="false" n="11">
+                        <measure xml:id="mf6kf7i" right="end" bar.method="staff" metcon="false" n="11">
                             <staff xml:id="m11s1" n="1">
                                 <layer xml:id="m11s1l1" n="1">
                                     <note xml:id="ngipr59" dur="4" pname="e" oct="4"/>
@@ -718,6 +723,8 @@
                                 </layer>
                             </staff>
                         </measure>
+                    </section>
+                    <section n="s2">
                         <app>
                             <rdg xml:id="rdgmig">
                                 <measure xml:id="m1g81aca" right="dbl" bar.method="staff" metcon="false" n="12a">
@@ -819,7 +826,7 @@
                                             <note xml:id="n1lehria" dur="1" pname="d" oct="3"/>
                                         </layer>
                                     </staff>
-                                    <dir corresp="#rdgmkg" xml:id="dstif7l" place="above" startid="n1iqbsac">oder:</dir>
+                                    <dir corresp="#rdgmkg" xml:id="dstif7l" place="above" startid="#neeubcx">oder:</dir>
                                 </measure>
                             </rdg>
                         </app>
