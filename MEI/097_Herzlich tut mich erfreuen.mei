@@ -28,7 +28,7 @@
                     </address>
                 </pubPlace>
                 <respStmt>
-                    <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="135520258">Axel Berndt</persName>
+                    <persName xml:id="editor_axel_berndt" role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="135520258">Axel Berndt</persName>
                     <persName role="editor">Aida Amiryan-Stein</persName>
                 </respStmt>
                 <date>2024-2025</date>
@@ -93,7 +93,6 @@
             <mdiv>
                 <score>
                     <scoreDef keysig="2s" key.pname="d" key.mode="major">
-                        <meterSig sym="cut"/>
                         <pgHead>
                             <rend halign="center" valign="top" fontsize="large">
                                 <rend>97</rend>
@@ -116,6 +115,9 @@
 						</staffGrp>
                     </scoreDef>
                     <section xml:id="s1">
+                        <scoreDef resp="#editor_axel_berndt">
+                            <meterSig sym="cut"/>
+                        </scoreDef>
                         <measure xml:id="mr7swma" right="end" metcon="false" n="1">
                             <staff xml:id="m1s1" n="1">
                                 <layer xml:id="m1s1l1" n="1">
