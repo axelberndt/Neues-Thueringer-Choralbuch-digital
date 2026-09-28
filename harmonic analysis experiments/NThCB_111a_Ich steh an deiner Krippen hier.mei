@@ -110,6 +110,10 @@
             <score>
                <scoreDef keysig="2s" key.pname="b" key.mode="minor">
                   <chordTable>
+                     <chordDef xml:id="m3" label="minor_third">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="m3"/>
+                     </chordDef>
                      <chordDef xml:id="M3P5" label="major_third perfect_fifth">
                         <chordMember inth="P1"/>
                         <chordMember inth="M3"/>
@@ -124,6 +128,11 @@
                         <chordMember inth="P1"/>
                         <chordMember inth="m3"/>
                         <chordMember inth="m6"/>
+                     </chordDef>
+                     <chordDef xml:id="m3m7" label="minor_third minor_seventh">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="m3"/>
+                        <chordMember inth="m7"/>
                      </chordDef>
                      <chordDef xml:id="M3M6" label="minor_third major_sixth">
                         <chordMember inth="P1"/>
@@ -144,6 +153,11 @@
                         <chordMember inth="P1"/>
                         <chordMember inth="d5"/>
                         <chordMember inth="m6"/>
+                     </chordDef>
+                     <chordDef xml:id="M2P5" label="major_second perfect_fifth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="M2"/>
+                        <chordMember inth="P5"/>
                      </chordDef>
                      <chordDef xml:id="m3P5m7" label="minor_third perfect_fifth minor_seventh">
                         <chordMember inth="P1"/>
@@ -351,8 +365,8 @@
                         <caesura xml:id="cnqec2y" startid="#n1i7p9wh" glyph.auth="smufl" glyph.name="chantCaesura"/>
                         <harm xml:id="h2k8p4m" tstamp="1" chordref="#m3m6" plist="#n1l6t0b3 #ng4nz0i #nrl4krj #n1qdmjbl"/>
                         <harm xml:id="h6v3r9q" tstamp="1.5" chordref="#M3P5" plist="#n1rk0hks #ng4nz0i #n13n36ub #n1qdmjbl"/>
-                        <harm xml:id="h8q4v6r" tstamp="2" chordref="#m3m7" plist="#n14xkdza #n16bdu5t #nzr56vk #n1qdmjbl"/><!-- ? nicht m6, sondern m7 -->
-                        <harm xml:id="h8q4vdr" tstamp="2.5" chordref="#m3d5m6" plist="#n14xkdza #n16bdu5t #nzr56vk #n1xn1o2h"/><!-- ? Richtig -->
+                        <harm xml:id="h8q4v6r" tstamp="2" chordref="#m3m7" plist="#n14xkdza #n16bdu5t #nzr56vk #n1qdmjbl"/>
+                        <harm xml:id="h8q4vdr" tstamp="2.5" chordref="#m3d5m6" plist="#n14xkdza #n16bdu5t #nzr56vk #n1xn1o2h"/>
                         <harm xml:id="h3p9m5k" tstamp="3" chordref="#M3P5" plist="#ndg2smq #n13qfdps #n10dhqsi #n1i7p9wh"/>
                         <harm xml:id="h4k6m9p" tstamp="4" chordref="#M3P5" plist="#n12371w7 #n1ra1hjv #n10dhqsi #n1e1sucm"/>
                      </measure>
@@ -387,7 +401,7 @@
                            <layer xml:id="m4s2l2" n="2">
                               <beam>
                                  <note xml:id="n25zgt9" dur="8" pname="b" oct="2"/>
-                                 <note xml:id="n103dzm2" dur="8" pname="f" oct="3" mfunc="arp"><!-- mfunc? Ja -->
+                                 <note xml:id="n103dzm2" dur="8" pname="f" oct="3" mfunc="arp">
                                     <accid accid.ges="s"/>
                                  </note>
                               </beam>
@@ -405,7 +419,7 @@
                            </layer>
                         </staff>
                         <harm xml:id="h5q8m3r" tstamp="1" chordref="#m3P5" plist="#n25zgt9 #nqx0eun #n10fzmos #n4qxx4b"/>
-                        <harm xml:id="h8r4m9q" tstamp="2" chordref="#m3" plist="#n81y4ye #n19jmcin #n4e13nk #n4qxx4b"/><!-- ohne 5? Ja -->
+                        <harm xml:id="h8r4m9q" tstamp="2" chordref="#m3" plist="#n81y4ye #n19jmcin #n4e13nk #n4qxx4b"/>
                         <harm xml:id="h3q7m5r" tstamp="3" chordref="#M3P5" plist="#n362s3n #n1na4bbq #n18nsx50 #ne983bf"/>
                         <harm xml:id="h7m8q3r" tstamp="4" chordref="#M3A4M6" plist="#nqs6a66 #n1m6l5nz #ng1a6we #n1j67o6t"/>
                      </measure>
@@ -430,7 +444,7 @@
                         </staff>
                         <staff xml:id="m5s2" n="2">
                            <layer xml:id="m5s2l1" n="1">
-                              <note xml:id="now6tdj" dur="4" pname="b" oct="3" mfunc="43sus"/><!-- ? Über harm gelöst P4P5 -->
+                              <note xml:id="now6tdj" dur="4" pname="b" oct="3" mfunc="43sus"/>
                               <note xml:id="n1h3m874" dur="4" pname="g" oct="3" mfunc="ln">
                                  <accid accid="s"/>
                               </note>
@@ -447,7 +461,7 @@
                               </note>
                            </layer>
                         </staff>
-                        <harm xml:id="h4m7p2k" tstamp="1" chordref="#P4P5" plist="#nk2hao4 #now6tdj #n4pyo9n #n1m73bfs"/><!-- ? P4P5 -->
+                        <harm xml:id="h4m7p2k" tstamp="1" chordref="#P4P5" plist="#nk2hao4 #now6tdj #n4pyo9n #n1m73bfs"/>
                         <harm xml:id="h2k9m5p" tstamp="3" chordref="#M3P5" plist="#nrnmox #n1982so2 #n31n92w #n1t0ccy4"/>
                      </measure>
                   </section>
@@ -516,7 +530,7 @@
                                  </note>
                                  <note xml:id="n1x8o75i" dur="8" pname="d" oct="3"/>
                               </beam>
-                              <note xml:id="ntdiowz" dots="1" dur="4" pname="g" oct="3"/><!--  mfunc="43sus"?  -->
+                              <note xml:id="ntdiowz" dots="1" dur="4" pname="g" oct="3"/>
                               <note xml:id="n1sfd3fu" dur="8" pname="f" oct="3">
                                  <accid accid.ges="s"/>
                               </note>
@@ -526,7 +540,8 @@
                         <harm xml:id="h2p7q9v" tstamp="2" chordref="#m3m6" plist="#n11xsd8w #nnul7v5 #n1bucfb #n4yv98e"/>
                         <harm xml:id="h2p7qsv" tstamp="2.5" chordref="#M3P5" plist="#n1x8o75i #nnul7v5 #n1bucfb #n4yv98e"/>
                         <harm xml:id="h6k4m8r" tstamp="3" chordref="#M3P5" plist="#ntdiowz #nvnx2jn #n1q3mf8q #nl2x0ce"/>
-                        <harm xml:id="h4r9m2k" tstamp="4" chordref="#m3m6" plist="#n1sfd3fu #n1369vxn #nonq1eg #n14erhot"/>
+                        <harm xml:id="h4r9m2k" tstamp="4" chordref="#M2P5" plist="#ntdiowz #n1369vxn #nonq1eg #n14erhot"/>
+                        <harm xml:id="h4r9efk" tstamp="4.5" chordref="#m3m6" plist="#n1sfd3fu #n1369vxn #nonq1eg #n14erhot"/>
                      </measure>
                      <measure xml:id="m1r3dfza" n="7">
                         <staff xml:id="m8s1" n="1">
