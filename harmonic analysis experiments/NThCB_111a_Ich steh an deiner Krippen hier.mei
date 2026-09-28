@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <titlePart type="number">111a</titlePart>
+               <titlePart type="main" xml:id="sngttl">Ich steh an deiner Krippen hier</titlePart>
+            </title>
+            <respStmt>
+               <persName role="composer_melody harmonization" xml:id="cmpsrMld_cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11850553X">Johann Sebastian Bach</persName>
+               <persName role="composer_harmonization" xml:id="cmpsrHrm" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
+               <persName role="encoder">Aida Amiryan-Stein</persName>
+            </respStmt>
+            <funder>
+               <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="000354872">
+                  <abbr>ADW Mainz</abbr>
+                  <expan>Akademie der Wissenschaften und der Literatur Mainz</expan>
+               </corpName>
+               <address>
+                  <addrLine>
+                     <street>Geschwister-Scholl-Straße 2</street>
+                     <postCode>32756</postCode>
+                     <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2874225">Mainz</geogName>
+                     <country>Germany</country>
+                  </addrLine>
+               </address>
+               <ptr label="WWW" target="https://www.adwmainz.de"/>
+            </funder>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <resp>publisher</resp>
+               <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="1397110007">
+                  <abbr>KIO</abbr>
+                  <expan>KreativInstitut.OWL</expan>
+                  <address>
+                     <addrLine>Bielefelder Str. 66a</addrLine>
+                     <addrLine>32756 Detmold</addrLine>
+                     <addrLine>Germany</addrLine>
+                  </address>
+                  <ptr label="WWW" target="https://kreativ.institute/de"/>
+                  <persName role="editor" auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="135520258">Axel Berndt</persName>
+                  <persName role="editor">Aida Amiryan-Stein</persName>
+               </corpName>
+            </respStmt>
+            <pubPlace>
+               <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2817537">Detmold</geogName>
+            </pubPlace>
+            <date isodate="2026">2026</date>
+            <availability>
+               <identifier auth="Creative Commons" auth.uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</identifier>
+            </availability>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Methoden und Perspektiven von Generalbass-Annotationen in MEI</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work n="111a">
+            <title sameas="#sngttl"/>
+            <composer sameas="#cmpsrMld_cmpsrHrm">
+               <date isodate="1736">1736</date>
+            </composer>
+            <composer sameas="#cmpsrHrm">
+               <bibl>Schemellisches Gesangbuch</bibl>
+            </composer>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation>
+            <biblList>
+               <biblStruct>
+                  <monogr>
+                     <title>Neues Thüringer Choralbuch</title>
+                     <funder>
+                        <corpName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="2031791-8">Evangelisch-Lutherische Kirche in Thüringen. Landeskirchenrat</corpName>
+                     </funder>
+                     <editor>
+                        <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="118579177">Rudolf Mauersberger</persName>
+                        <persName auth="GND" auth.uri="http://d-nb.info/gnd/" codedval="11882340X">Erhard Mauersberger</persName>
+                        <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="131444689">Herbert Peter</persName>
+                     </editor>
+                     <imprint>
+                        <publisher>
+                           <corpName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="2009855-8">Evangelische Verlagsanstalt GmbH</corpName>
+                           <geogName auth="geonames" auth.uri="https://www.geonames.org/" codedval="2950159">Berlin</geogName>
+                        </publisher>
+                        <bibl>
+                           <edition xml:id="edition_06">
+                              <identifier auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="350556555">6. Auflage</identifier>
+                              <date isodate="1990">1990</date>
+                           </edition>
+                        </bibl>
+                     </imprint>
+                     <biblScope xml:lang="de">German</biblScope>
+                  </monogr>
+               </biblStruct>
+            </biblList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef keysig="2s" key.pname="b" key.mode="minor">
+                  <chordTable>
+                     <chordDef xml:id="M3P5" label="major_third perfect_fifth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="M3"/>
+                        <chordMember inth="P5"/>
+                     </chordDef>
+                     <chordDef xml:id="m3P5" label="minor_third perfect_fifth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="m3"/>
+                        <chordMember inth="P5"/>
+                     </chordDef>
+                     <chordDef xml:id="m3m6" label="minor_third minor_sixth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="m3"/>
+                        <chordMember inth="m6"/>
+                     </chordDef>
+                     <chordDef xml:id="M3M6" label="minor_third major_sixth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="M3"/>
+                        <chordMember inth="M6"/>
+                     </chordDef>
+                     <chordDef xml:id="P4M6" label="perfect_four major_sixth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="P4"/>
+                        <chordMember inth="M6"/>
+                     </chordDef>
+                     <chordDef xml:id="P4P5" label="perfect_four perfect_fifth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="P4"/>
+                        <chordMember inth="P4"/>
+                     </chordDef>
+                     <chordDef xml:id="m3d5m6" label="minor third_diminished_fifth minor_sixth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="d5"/>
+                        <chordMember inth="m6"/>
+                     </chordDef>
+                     <chordDef xml:id="m3P5m7" label="minor_third perfect_fifth minor_seventh">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="m3"/>
+                        <chordMember inth="P5"/>
+                        <chordMember inth="m7"/>
+                     </chordDef>
+                     <chordDef xml:id="M3A4M6" label="major_third augmented_forth major_sixth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="M3"/>
+                        <chordMember inth="A4"/>
+                        <chordMember inth="M6"/>
+                     </chordDef>
+                     <chordDef xml:id="M2A4M6" label="major_second augmented_forth major_sixth">
+                        <chordMember inth="P1"/>
+                        <chordMember inth="M2"/>
+                        <chordMember inth="A4"/>
+                        <chordMember inth="M6"/>
+                     </chordDef>
+                  </chordTable>
+                  <meterSig count="4" unit="4"/>
+                  <pgHead>
+                     <rend halign="center" valign="top" fontsize="large">
+                        <rend>111</rend>
+                        <lb/>
+                        <rend>Ich steh an deiner Krippen hier</rend>
+                     </rend>
+                     <rend halign="right" valign="bottom" fontsize="small">
+                        <rend>Johann Sebastian Bach 1736</rend>
+                     </rend>
+                     <lb/>
+                     <rend halign="right" valign="bottom" fontsize="small">
+                        <rend>Satz nach dem Schemellischen Gesangbuch</rend>
+                     </rend>
+                     <rend halign="left" valign="bottom" fontsize="small">a)</rend>
+                  </pgHead>
+                  <staffGrp bar.thru="true" symbol="brace">
+                     <staffDef n="1" lines="5">
+                        <clef shape="G" line="2"/>
+                     </staffDef>
+                     <staffDef n="2" lines="5">
+                        <clef shape="F" line="4"/>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <expansion plist="#a #a #b"/>
+                  <section xml:id="a">
+                     <measure xml:id="mdj7k4v" metcon="false">
+                        <staff xml:id="m1s1" n="1">
+                           <layer xml:id="m1s1l1" n="1">
+                              <note xml:id="nzpsj6n" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m1s1l2" n="2">
+                              <beam>
+                                 <note xml:id="n1sttt2t" dur="8" pname="d" oct="4"/>
+                                 <note xml:id="ndhu8j8" dur="8" pname="e" oct="4" mfunc="upt"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m1s2" n="2">
+                           <layer xml:id="m1s2l1" n="1">
+                              <note xml:id="nxqbehk" dur="4" pname="b" oct="3"/>
+                           </layer>
+                           <layer xml:id="m1s2l2" n="2">
+                              <beam>
+                                 <note xml:id="n1hvsysy" dur="8" pname="b" oct="2"/>
+                                 <note xml:id="n1xjjh77" dur="8" pname="c" oct="3" mfunc="upt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h7k2m9q" tstamp="1" chordref="#m3P5" plist="#n1hvsysy #nxqbehk #n1sttt2t #nzpsj6n"/>
+                     </measure>
+                     <measure xml:id="mm8zg73" n="1">
+                        <staff xml:id="m2s1" n="1">
+                           <layer xml:id="m2s1l1" n="1">
+                              <note xml:id="n13zltb3" dur="4" pname="b" oct="4"/>
+                              <note xml:id="n1hndzdo" dur="4" pname="c" oct="5">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nl4a7ma" dur="4" pname="d" oct="5"/>
+                              <note xml:id="n1t7slmr" dur="4" pname="b" oct="4"/>
+                           </layer>
+                           <layer xml:id="m2s1l2" n="2">
+                              <note xml:id="nmeymjt" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1jxqg2r" dur="4" pname="e" oct="4"/>
+                              <beam>
+                                 <note xml:id="ns7xqsy" dur="8" pname="d" oct="4"/>
+                                 <note xml:id="n15yldsi" dur="8" pname="e" oct="4" mfunc="upt"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n1hhhnrn" dur="8" pname="f" oct="4">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="n1n9rmrq" dur="8" pname="d" oct="4"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m2s2" n="2">
+                           <layer xml:id="m2s2l1" n="1">
+                              <note xml:id="n9p18mr" dur="4" pname="b" oct="3"/>
+                              <note xml:id="ndvj0h3" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n3qmzhx" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1id0d7j" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m2s2l2" n="2">
+                              <beam>
+                                 <note xml:id="nxfy9ml" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="n19wpiiw" dur="8" pname="c" oct="3" mfunc="upt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n6zhwur" dur="8" pname="b" oct="2" mfunc="98sus"/>
+                                 <note xml:id="n14ij5qd" dur="8" pname="a" oct="2">
+                                    <accid accid="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n1kwk4if" dur="8" pname="b" oct="2"/>
+                                 <note xml:id="n1hip2o5" dur="8" pname="c" oct="3" mfunc="upt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n13a0ua9" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="n1y3zk4z" dur="8" pname="b" oct="2"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h6q3v8m" tstamp="1" chordref="#m3m6" plist="#nxfy9ml #n9p18mr #nmeymjt #n13zltb3"/>
+                        <harm xml:id="h8m4q1s" tstamp="2" chordref="#m3d5m6" plist="#n14ij5qd #ndvj0h3 #n1jxqg2r #n1hndzdo"/>
+                        <harm xml:id="h3k7m2r" tstamp="3" chordref="#m3P5" plist="#n1kwk4if #n3qmzhx #ns7xqsy #nl4a7ma"/>
+                        <harm xml:id="h4m8r5k" tstamp="4" chordref="#M3M6" plist="#n13a0ua9 #n1id0d7j #n1hhhnrn #n1t7slmr"/>
+                        <harm xml:id="h7q3v9p" tstamp="4.5" chordref="#m3P5" plist="#n1y3zk4z #n1id0d7j #n1n9rmrq #n1t7slmr"/>
+                     </measure>
+                     <measure xml:id="m14bb8lm" n="2">
+                        <staff xml:id="m3s1" n="1">
+                           <layer xml:id="m3s1l1" n="1">
+                              <note xml:id="n1qdmjbl" dots="1" dur="4" pname="a" oct="4"/>
+                              <note xml:id="n1xn1o2h" dur="8" pname="g" oct="4"/>
+                              <note xml:id="n1i7p9wh" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1e1sucm" dur="4" pname="a" oct="4"/>
+                           </layer>
+                           <layer xml:id="m3s1l2" n="2">
+                              <beam>
+                                 <note xml:id="nrl4krj" dur="8" pname="e" oct="4"/>
+                                 <note xml:id="n13n36ub" dur="8" pname="c" oct="4">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n11by3vy" dur="8" pname="d" oct="4" mfunc="apt"/>
+                                 <note xml:id="nzr56vk" dur="8" pname="e" oct="4"/>
+                              </beam>
+                              <note xml:id="n10dhqsi" dur="4" pname="d" oct="4"/>
+                              <note xml:id="neaxy6p" dur="4" pname="d" oct="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m3s2" n="2">
+                           <layer xml:id="m3s2l1" n="1">
+                              <note xml:id="ng4nz0i" dur="4" pname="a" oct="3"/>
+                              <note xml:id="n16bdu5t" dur="4" pname="a" oct="3"/>
+                              <note xml:id="n13qfdps" dur="4" pname="a" oct="3"/>
+                              <note xml:id="n1ra1hjv" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m3s2l2" n="2">
+                              <beam>
+                                 <note xml:id="n1l6t0b3" dur="8" pname="c" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="n1rk0hks" dur="8" pname="a" oct="2"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="nyc275u" dur="8" pname="b" oct="2" mfunc="apt"/>
+                                 <note xml:id="n14xkdza" dur="8" pname="c" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <note xml:id="ndg2smq" dur="4" pname="d" oct="3"/>
+                              <beam>
+                                 <note xml:id="n12371w7" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="nfptdsk" dur="8" pname="c" oct="3" mfunc="upt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <caesura xml:id="cnqec2y" startid="#n1i7p9wh" glyph.auth="smufl" glyph.name="chantCaesura"/>
+                        <harm xml:id="h2k8p4m" tstamp="1" chordref="#m3m6" plist="#n1l6t0b3 #ng4nz0i #nrl4krj #n1qdmjbl"/>
+                        <harm xml:id="h6v3r9q" tstamp="1.5" chordref="#M3P5" plist="#n1rk0hks #ng4nz0i #n13n36ub #n1qdmjbl"/>
+                        <harm xml:id="h8q4v6r" tstamp="2" chordref="#m3m7" plist="#n14xkdza #n16bdu5t #nzr56vk #n1qdmjbl"/><!-- ? nicht m6, sondern m7 -->
+                        <harm xml:id="h8q4vdr" tstamp="2.5" chordref="#m3d5m6" plist="#n14xkdza #n16bdu5t #nzr56vk #n1xn1o2h"/><!-- ? Richtig -->
+                        <harm xml:id="h3p9m5k" tstamp="3" chordref="#M3P5" plist="#ndg2smq #n13qfdps #n10dhqsi #n1i7p9wh"/>
+                        <harm xml:id="h4k6m9p" tstamp="4" chordref="#M3P5" plist="#n12371w7 #n1ra1hjv #n10dhqsi #n1e1sucm"/>
+                     </measure>
+                     <measure xml:id="mlw9o2u" n="3">
+                        <staff xml:id="m4s1" n="1">
+                           <layer xml:id="m4s1l1" n="1">
+                              <note xml:id="n4qxx4b" dots="1" dur="4" pname="d" oct="4"/>
+                              <note xml:id="nvssaiy" dur="8" pname="c" oct="4" mfunc="chg">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="ne983bf" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n1j67o6t" dur="4" pname="e" oct="4"/>
+                           </layer>
+                           <layer xml:id="m4s1l2" n="2">
+                              <note xml:id="n10fzmos" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n4e13nk" dur="4" pname="b" oct="3"/>
+                              <note xml:id="n18nsx50" dur="4" pname="b" oct="3"/>
+                              <note xml:id="ng1a6we" dur="4" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m4s2" n="2">
+                           <layer xml:id="m4s2l1" n="1">
+                              <note xml:id="nqx0eun" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n19jmcin" dur="4" pname="b" oct="3"/>
+                              <note xml:id="n1na4bbq" dur="4" pname="b" oct="3"/>
+                              <note xml:id="n1m6l5nz" dur="4" pname="b" oct="3"/>
+                           </layer>
+                           <layer xml:id="m4s2l2" n="2">
+                              <beam>
+                                 <note xml:id="n25zgt9" dur="8" pname="b" oct="2"/>
+                                 <note xml:id="n103dzm2" dur="8" pname="f" oct="3" mfunc="arp"><!-- mfunc? Ja -->
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n81y4ye" dur="8" pname="b" oct="3"/>
+                                 <note xml:id="n1o3bist" dur="8" pname="a" oct="3" mfunc="upt"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n362s3n" dur="8" pname="g" oct="3"/>
+                                 <note xml:id="n1wtuex3" dur="8" pname="f" oct="3" mfunc="chg">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <note xml:id="nqs6a66" dur="4" pname="g" oct="3"/>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h5q8m3r" tstamp="1" chordref="#m3P5" plist="#n25zgt9 #nqx0eun #n10fzmos #n4qxx4b"/>
+                        <harm xml:id="h8r4m9q" tstamp="2" chordref="#m3" plist="#n81y4ye #n19jmcin #n4e13nk #n4qxx4b"/><!-- ohne 5? Ja -->
+                        <harm xml:id="h3q7m5r" tstamp="3" chordref="#M3P5" plist="#n362s3n #n1na4bbq #n18nsx50 #ne983bf"/>
+                        <harm xml:id="h7m8q3r" tstamp="4" chordref="#M3A4M6" plist="#nqs6a66 #n1m6l5nz #ng1a6we #n1j67o6t"/>
+                     </measure>
+                     <measure xml:id="mptrve" right="rptend" metcon="false" n="4">
+                        <staff xml:id="m5s1" n="1">
+                           <layer xml:id="m5s1l1" n="1">
+                              <note xml:id="n1m73bfs" dur="2" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1t0ccy4" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m5s1l2" n="2">
+                              <note xml:id="n4pyo9n" dur="2" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n31n92w" dur="4" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m5s2" n="2">
+                           <layer xml:id="m5s2l1" n="1">
+                              <note xml:id="now6tdj" dur="4" pname="b" oct="3" mfunc="43sus"/><!-- ? Über harm gelöst P4P5 -->
+                              <note xml:id="n1h3m874" dur="4" pname="g" oct="3" mfunc="ln">
+                                 <accid accid="s"/>
+                              </note>
+                              <note xml:id="n1982so2" dur="4" pname="a" oct="3">
+                                 <accid accid="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m5s2l2" n="2">
+                              <note xml:id="nk2hao4" dur="2" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nrnmox" dur="4" pname="f" oct="2">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h4m7p2k" tstamp="1" chordref="#P4P5" plist="#nk2hao4 #now6tdj #n4pyo9n #n1m73bfs"/><!-- ? P4P5 -->
+                        <harm xml:id="h2k9m5p" tstamp="3" chordref="#M3P5" plist="#nrnmox #n1982so2 #n31n92w #n1t0ccy4"/>
+                     </measure>
+                  </section>
+                  <section xml:id="b">
+                     <measure xml:id="mpiejks" metcon="false" n="5">
+                        <staff xml:id="m6s1" n="1">
+                           <layer xml:id="m6s1l1" n="1">
+                              <note xml:id="n1q28fsr" dur="4" pname="a" oct="4"/>
+                           </layer>
+                           <layer xml:id="m6s1l2" n="2">
+                              <beam>
+                                 <note xml:id="n154w3ca" dur="8" pname="d" oct="4"/>
+                                 <note xml:id="n10wiieq" dur="8" pname="e" oct="4" mfunc="upt"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m6s2" n="2">
+                           <layer xml:id="m6s2l1" n="1">
+                              <note xml:id="n7g29df" dur="4" pname="a" oct="3">
+                                 <accid accid="n"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m6s2l2" n="2">
+                              <beam>
+                                 <note xml:id="n1koacs4" dur="8" pname="f" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="n1506uow" dur="8" pname="e" oct="3" mfunc="upt"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h7r4q8m" tstamp="1" chordref="#m3m6" plist="#n1koacs4 #n7g29df #n154w3ca #n1q28fsr"/>
+                     </measure>
+                     <measure xml:id="m1g5d96i" n="6">
+                        <staff xml:id="m7s1" n="1">
+                           <layer xml:id="m7s1l1" n="1">
+                              <note xml:id="n1g34413" dur="4" pname="d" oct="5"/>
+                              <note xml:id="n4yv98e" dur="4" pname="a" oct="4"/>
+                              <note xml:id="nl2x0ce" dur="4" pname="b" oct="4"/>
+                              <note xml:id="n14erhot" dur="4" pname="a" oct="4"/>
+                           </layer>
+                           <layer xml:id="m7s1l2" n="2">
+                              <note xml:id="njty8hz" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1bucfb" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n1q3mf8q" dur="4" pname="d" oct="4"/>
+                              <note xml:id="nonq1eg" dur="4" pname="d" oct="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m7s2" n="2">
+                           <layer xml:id="m7s2l1" n="1">
+                              <note xml:id="n1c5offv" dur="4" pname="a" oct="3"/>
+                              <note xml:id="nnul7v5" dur="4" pname="a" oct="3"/>
+                              <note xml:id="nvnx2jn" dur="4" pname="g" oct="3"/>
+                              <note xml:id="n1369vxn" dur="4" pname="a" oct="3"/>
+                           </layer>
+                           <layer xml:id="m7s2l2" n="2">
+                              <beam>
+                                 <note xml:id="ngqtjgi" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="ntilhmd" dur="8" pname="e" oct="3" mfunc="upt"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n11xsd8w" dur="8" pname="f" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="n1x8o75i" dur="8" pname="d" oct="3"/>
+                              </beam>
+                              <note xml:id="ntdiowz" dots="1" dur="4" pname="g" oct="3"/><!--  mfunc="43sus"?  -->
+                              <note xml:id="n1sfd3fu" dur="8" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h9q2v5m" tstamp="1" chordref="#M3P5" plist="#ngqtjgi #n1c5offv #njty8hz #n1g34413"/>
+                        <harm xml:id="h2p7q9v" tstamp="2" chordref="#m3m6" plist="#n11xsd8w #nnul7v5 #n1bucfb #n4yv98e"/>
+                        <harm xml:id="h2p7qsv" tstamp="2.5" chordref="#M3P5" plist="#n1x8o75i #nnul7v5 #n1bucfb #n4yv98e"/>
+                        <harm xml:id="h6k4m8r" tstamp="3" chordref="#M3P5" plist="#ntdiowz #nvnx2jn #n1q3mf8q #nl2x0ce"/>
+                        <harm xml:id="h4r9m2k" tstamp="4" chordref="#m3m6" plist="#n1sfd3fu #n1369vxn #nonq1eg #n14erhot"/>
+                     </measure>
+                     <measure xml:id="m1r3dfza" n="7">
+                        <staff xml:id="m8s1" n="1">
+                           <layer xml:id="m8s1l1" n="1">
+                              <note xml:id="na93lvg" dots="1" dur="4" pname="g" oct="4"/><!-- mfunc="78ret"? -->
+                              <note xml:id="nqcl4h8" dur="8" pname="a" oct="4"/>
+                              <note xml:id="ny9e6jp" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1ry5949" dur="4" pname="a" oct="4"/>
+                           </layer>
+                           <layer xml:id="m8s1l2" n="2">
+                              <note xml:id="n1j7jaj4" dots="1" dur="4" pname="e" oct="4"/>
+                              <note xml:id="n1yy5ftl" dur="8" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n7avhza" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n1s8qq5e" dur="4" pname="d" oct="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m8s2" n="2">
+                           <layer xml:id="m8s2l1" n="1">
+                              <note xml:id="n1eapu9g" dur="4" pname="b" oct="3"/>
+                              <note xml:id="n1mnldqp" dur="4" pname="a" oct="3"/>
+                              <note xml:id="nggnfmq" dur="4" pname="a" oct="3"/>
+                              <note xml:id="n130qya3" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m8s2l2" n="2">
+                              <beam>
+                                 <note xml:id="n1rj98si" dur="8" pname="e" oct="3"/>
+                                 <note xml:id="n1u9qkcp" dur="8" pname="d" oct="3" mfunc="upt"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n1vxu5tz" dur="8" pname="c" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="n12h3nji" dur="8" pname="a" oct="2"/>
+                              </beam>
+                              <note xml:id="n157l71r" dur="4" pname="d" oct="3"/>
+                              <beam>
+                                 <note xml:id="n1ln0yx1" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="nea9v4h" dur="8" pname="c" oct="3" mfunc="upt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <caesura xml:id="c1qik5th" startid="#ny9e6jp" glyph.auth="smufl" glyph.name="chantCaesura"/>
+                        <harm xml:id="h6q2m8r" tstamp="1" chordref="#m3P5" plist="#n1rj98si #n1eapu9g #n1j7jaj4 #na93lvg"/>
+                        <harm xml:id="h8m4q2v" tstamp="2" chordref="#m3m6" plist="#n1vxu5tz #n1mnldqp #n1j7jaj4 #nqcl4h8"/>
+                        <harm xml:id="h5k9r3p" tstamp="2.5" chordref="#M3P5" plist="#n12h3nji #n1mnldqp #n1yy5ftl #nqcl4h8"/>
+                        <harm xml:id="h2p6v8m" tstamp="3" chordref="#M3P5" plist="#n157l71r #nggnfmq #n7avhza #ny9e6jp"/>
+                        <harm xml:id="h4m8k2v" tstamp="4" chordref="#M3P5" plist="#nea9v4h #n130qya3 #n1s8qq5e #n1ry5949"/>
+                     </measure>
+                     <measure xml:id="m1mtua2x" n="8">
+                        <staff xml:id="m9s1" n="1">
+                           <layer xml:id="m9s1l1" n="1">
+                              <note xml:id="na0vmjf" dur="4" pname="d" oct="5"/>
+                              <note xml:id="n1ksyaj7" dur="4" pname="a" oct="4"/>
+                              <note xml:id="n15eeufc" dur="4" pname="b" oct="4"/>
+                              <note xml:id="n16e6bim" dur="4" pname="a" oct="4"/>
+                           </layer>
+                           <layer xml:id="m9s1l2" n="2">
+                              <note xml:id="nge2h8w" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n1wvwlox" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n1ltqzk3" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1wmwdw" dur="4" pname="d" oct="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m9s2" n="2">
+                           <layer xml:id="m9s2l1" n="1">
+                              <note xml:id="n1cuwk8a" dur="4" pname="g" oct="3"/>
+                              <note xml:id="ne0745f" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nqi264l" dur="4" pname="d" oct="4"/>
+                              <beam>
+                                 <note xml:id="n1p8p21o" dur="8" pname="a" oct="3"/>
+                                 <note xml:id="noghvbt" dur="8" pname="f" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                           </layer>
+                           <layer xml:id="m9s2l2" n="2">
+                              <beam>
+                                 <note xml:id="nkaojz1" dur="8" pname="b" oct="2"/>
+                                 <note xml:id="nnsypvr" dur="8" pname="c" oct="3" mfunc="upt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="ns5ueep" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="n1vc8zh7" dur="8" pname="c" oct="3" mfunc="ln">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n1epogdi" dur="8" pname="d" oct="3"/>
+                                 <note xml:id="nwpv5wk" dur="8" pname="e" oct="3" mfunc="upt"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="nmt0ez3" dur="8" pname="f" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="ncocrg" dur="8" pname="d" oct="3"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h9q3p6m" tstamp="1" chordref="#m3m6" plist="#nkaojz1 #n1cuwk8a #nge2h8w #na0vmjf"/>
+                        <harm xml:id="h2m7q4p" tstamp="2" chordref="#M3P5" plist="#ns5ueep #ne0745f #n1wvwlox #n1ksyaj7"/>
+                        <harm xml:id="h4p6m8r" tstamp="3" chordref="#M3M6" plist="#n1epogdi #nqi264l #n1ltqzk3 #n15eeufc"/>
+                        <harm xml:id="h3r8k5p" tstamp="4" chordref="#m3m6" plist="#nmt0ez3 #n1p8p21o #n1wmwdw #n16e6bim"/>
+                        <harm xml:id="h6v4m9q" tstamp="4.5" chordref="#M3P5" plist="#ncocrg #noghvbt #n1wmwdw #n16e6bim"/>
+                     </measure>
+                     <measure xml:id="m1w24263" n="9">
+                        <staff xml:id="m10s1" n="1">
+                           <layer xml:id="m10s1l1" n="1">
+                              <note xml:id="n1x2sh00" dots="1" dur="4" pname="g" oct="4"/><!-- mfunc=? -->
+                              <note xml:id="n1yebd8q" dur="8" pname="a" oct="4"/>
+                              <note xml:id="nlgrffr" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n15aqgh4" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                           <layer xml:id="m10s1l2" n="2">
+                              <note xml:id="n5c6kt1" dur="4" pname="d" oct="4" mfunc="ct7"/>
+                              <note xml:id="nc0nvxx" dur="4" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n78zcwt" dur="4" pname="d" oct="4"/>
+                              <note xml:id="n1hbhfwj" dur="4" pname="d" oct="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m10s2" n="2">
+                           <layer xml:id="m10s2l1" n="1">
+                              <note xml:id="n16yuvqy" dur="4" pname="b" oct="3"/>
+                              <note xml:id="n9n5pjl" dur="4" pname="a" oct="3"/>
+                              <note xml:id="n17xvcay" dur="4" pname="a" oct="3"/>
+                              <note xml:id="n16okgnu" dur="4" pname="b" oct="3"/>
+                           </layer>
+                           <layer xml:id="m10s2l2" n="2">
+                              <note xml:id="nubso98" dur="4" pname="e" oct="3"/>
+                              <note xml:id="n1tj6zkv" dur="4" pname="a" oct="2"/>
+                              <note xml:id="nfvjbn5" dur="4" pname="d" oct="3"/>
+                              <note xml:id="nf8jzu2" dur="4" pname="b" oct="2"/>
+                           </layer>
+                        </staff>
+                        <caesura xml:id="ciomkwh" startid="#nlgrffr" glyph.auth="smufl" glyph.name="chantCaesura"/>
+                        <harm xml:id="h6m3q8v" tstamp="1" chordref="#m3P5" plist="#nubso98 #n16yuvqy #n5c6kt1 #n1x2sh00"/><!-- oder m3P5m7? -->
+                        <harm xml:id="h2r7pd4k" tstamp="2" chordref="#M3P5" plist="#n1tj6zkv #n9n5pjl #nc0nvxx #n1yebd8q"/>
+                        <harm xml:id="h8v5m2q" tstamp="3" chordref="#M3P5" plist="#nfvjbn5 #n17xvcay #n78zcwt #nlgrffr"/>
+                        <harm xml:id="h4k9q6m" tstamp="4" chordref="#m3P5" plist="#nf8jzu2 #n16okgnu #n1hbhfwj #n15aqgh4"/>
+                     </measure>
+                     <measure xml:id="mi9exy7" n="10">
+                        <staff xml:id="m11s1" n="1">
+                           <layer xml:id="m11s1l1" n="1">
+                              <note xml:id="n1sucgsa" dur="4" pname="g" oct="4">
+                                 <accid accid="s"/>
+                              </note>
+                              <note xml:id="na06t6n" dur="4" pname="a" oct="4">
+                                 <accid accid="s"/>
+                              </note>
+                              <beam>
+                                 <note xml:id="n22rit2" dur="8" pname="b" oct="4"/>
+                                 <note xml:id="nssq89p" dur="8" pname="d" oct="5"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n1ghwiy4" dur="8" pname="c" oct="5" mfunc="apt">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                                 <note xml:id="nalz6sa" dur="8" pname="b" oct="4"/>
+                              </beam>
+                           </layer>
+                           <layer xml:id="m11s1l2" n="2">
+                              <note xml:id="n1wk8toy" dur="4" pname="e" oct="4"/>
+                              <note xml:id="n1rnmd95" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n1ln5mga" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n184il08" dur="4" pname="g" oct="4">
+                                 <accid accid="n"/>
+                              </note>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m11s2" n="2">
+                           <layer xml:id="m11s2l1" n="1">
+                              <note xml:id="ni4oj1w" dur="4" pname="b" oct="3"/>
+                              <note xml:id="n1nskpre" dur="4" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nd0uxi5" dur="4" pname="b" oct="3"/>
+                              <note xml:id="nlx279s" dur="4" pname="e" oct="4"/>
+                           </layer>
+                           <layer xml:id="m11s2l2" n="2">
+                              <beam>
+                                 <note xml:id="n818e4l" dur="8" pname="e" oct="3"/>
+                                 <note xml:id="nrsnxj0" dur="8" pname="d" oct="3" mfunc="chg"/>
+                              </beam>
+                              <beam>
+                                 <note xml:id="n13g3s9p" dur="8" pname="e" oct="3"/>
+                                 <note xml:id="n1njft3s" dur="8" pname="c" oct="3">
+                                    <accid accid.ges="s"/>
+                                 </note>
+                              </beam>
+                              <note xml:id="n1y1fbz5" dur="4" pname="d" oct="3"/>
+                              <note xml:id="n10mxu4b" dur="4" pname="e" oct="3"/>
+                           </layer>
+                        </staff>
+                        <harm xml:id="h7p3m8r" tstamp="1" chordref="#M3P5" plist="#n818e4l #ni4oj1w #n1wk8toy #n1sucgsa"/>
+                        <harm xml:id="h5q9v2k" tstamp="1.5" chordref="#M2A4M6" plist="#nrsnxj0 #ni4oj1w #n1wk8toy #n1sucgsa"/>
+                        <harm xml:id="h3m6r8p" tstamp="2" chordref="#M2A4M6" plist="#n13g3s9p #n1nskpre #n1rnmd95 #na06t6n"/>
+                        <harm xml:id="h9k4v7m" tstamp="2.5" chordref="#P4M6" plist="#n1njft3s #n1nskpre #n1rnmd95 #na06t6n"/>
+                        <harm xml:id="h2q8m5r" tstamp="3" chordref="#M3M6" plist="#n1y1fbz5 #nd0uxi5 #n1ln5mga #n22rit2"/>
+                        <harm xml:id="h8r5k3m" tstamp="4" chordref="#m3P5" plist="#n10mxu4b #nlx279s #n184il08 #nalz6sa"/>
+                     </measure>
+                     <measure xml:id="m1gpogfh" right="end" metcon="false" n="11">
+                        <staff xml:id="m12s1" n="1">
+                           <layer xml:id="m12s1l1" n="1">
+                              <note xml:id="nedrpkw" dur="2" pname="a" oct="4">
+                                 <accid accid="s"/>
+                              </note>
+                              <note xml:id="nxodclp" dur="4" pname="b" oct="4"/>
+                           </layer>
+                           <layer xml:id="m12s1l2" n="2">
+                              <note xml:id="nq7xlij" dur="2" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nidjtrt" dur="4" pname="f" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m12s2" n="2">
+                           <layer xml:id="m12s2l1" n="1">
+                              <note xml:id="n1n274oh" dur="2" pname="c" oct="4">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="n15jmjta" dur="4" pname="d" oct="4"/>
+                           </layer>
+                           <layer xml:id="m12s2l2" n="2">
+                              <note xml:id="nz3t5i2" dur="4" pname="f" oct="3">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nu160ny" dur="4" pname="f" oct="2">
+                                 <accid accid.ges="s"/>
+                              </note>
+                              <note xml:id="nm4tf1l" dur="4" pname="b" oct="2"/>
+                           </layer>
+                        </staff>
+                        <fermata xml:id="f1ih73z8" startid="#nxodclp"/>
+                        <slur xml:id="sh4awy8" startid="#nz3t5i2" endid="#nu160ny"/>
+                        <fermata xml:id="fi55luf" startid="#nm4tf1l" place="below"/>
+                        <harm xml:id="h5p8m2q" tstamp="1" chordref="#M3P5" plist="#nz3t5i2 #n1n274oh #nq7xlij #nedrpkw"/>
+                        <harm xml:id="h9v4k6m" tstamp="2" chordref="#M3P5" plist="#nu160ny #n1n274oh #nq7xlij #nedrpkw"/>
+                        <harm xml:id="h3q7r5p" tstamp="3" chordref="#m3P5" plist="#nm4tf1l #n15jmjta #nidjtrt #nxodclp"/>
+                     </measure>
+                  </section>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
